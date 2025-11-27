@@ -38,6 +38,5 @@ for student in students:
         found = True
         break
 
-# 这个判断应该在for循环外部
 if not found:
     print("未找到该学号的学生")
